@@ -13,7 +13,7 @@ steps:
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
-    mavenPomFile: 'https://github.com/Vinutha-Mesta/maven/blob/main/Javateam/pom.xml'
+    mavenPomFile: './JavaHelloWorld/pom.xml'
     mavenOptions: '-Xmx3072m'
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.11'
